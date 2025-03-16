@@ -1,5 +1,5 @@
 open mo xampp, gawa ka ng database mo called "names"
-gawa ka table "people" with column id(PK ai), names, age
+gawa ka table "people" with column id(PK ai), name, age
 ilipat mo tong folder "api" sa htdocs sa xampp mo
 kunin mo ung ip mo (ipconfig) example (192.168.100.21)
 
