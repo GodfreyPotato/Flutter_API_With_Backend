@@ -9,4 +9,6 @@ if gagamit ng put at post idagdag ito sa parameter  headers: {"Content-Type": "a
 if mag dedelete gamit ng ?id=
 delete( Uri.parse("$api?id=${names[index]["id"]}"), ); - example
 if mag fefetch ng naka base lng sa id use http://192.168.100.21/api/apiFile.php?id=2
+
+PA star nga ng repo thanks hahaha
 THE END!
