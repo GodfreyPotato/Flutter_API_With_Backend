@@ -1,0 +1,12 @@
+open mo xampp, gawa ka ng database mo called "names"
+gawa ka table "people" with column id(PK ai), names, age
+ilipat mo tong folder "api" sa htdocs sa xampp mo
+kunin mo ung ip mo (ipconfig) example (192.168.100.21)
+
+final api = http://192.168.100.21/api/apiFile.php - ito gamitin mong api mo (pwede na ring pang get)
+
+if gagamit ng put at post idagdag ito sa parameter  headers: {"Content-Type": "application/json"},
+if mag dedelete gamit ng ?id=
+delete( Uri.parse("$api?id=${names[index]["id"]}"), ); - example
+if mag fefetch ng naka base lng sa id use http://192.168.100.21/api/apiFile.php?id=2
+THE END!
