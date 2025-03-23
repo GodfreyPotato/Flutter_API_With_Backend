@@ -1,0 +1,10 @@
+gawa db na "mad_api"
+iimport ang "mad_api_dump.sql"
+punta sa directory ng folder "mad_api" (Ex. "../NameNgFolder/mad_api)"
+i run "install npm" sa terminal, kung d ito nag work, mag install ka ng node.js
+open ang xampp
+terminal  "node server.js"
+gayahin ang ginawa ni sir sa vid for crud
+
+
+"npx kill-port 3500"
